@@ -477,3 +477,78 @@ select {
   border: none;
   cursor: pointer;
 }
+.footer {
+  border-top: 1px solid #e7e9ed;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 121px 245px 108px;
+  gap: 65px;
+}
+.footer-Product {
+  gap: 20px;
+  align-items: start;
+}
+.footer-title {
+  font-family: "gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+.footer-text a {
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #000;
+  font-family: "gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+}
+.footer-Contactus .footer-text a {
+  color: #2f4de0;
+  font-weight: 600;
+  font-family: "gilroy", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+}
+.footer-contact {
+  padding: 0 245px 20px;
+}
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.footer-contact-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 1px solid #e7e9ed;
+  padding-top: 20px;
+}
+.footer-contact-text img {
+  align-content: center;
+}
+.footer-button {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.footer-button button {
+  background-color: transparent;
+  text-decoration: none;
+  color: #000;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+}
